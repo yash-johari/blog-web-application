@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh
+}
+
+.navbar{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    z-index: 999;
+}
+
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+
+.nav-link{
+    margin: 0 16px;
+}
+
+img[src="/media/logo.png"]{
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.paraHome{
+    background: linear-gradient(rgb(255, 235, 235), rgba(185, 185, 185, 0.697));
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.paraText{
+    padding: 5px 20px;
+    text-align: center;
+    
+    font-weight:200;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background: none;
+    font-family: "Protest Riot", sans-serif;
+}
+
+form input, textarea{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 5px;
+}
+
+form button{
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+form button:hover{
+    text-decoration: underline;
+    transform: translateY(1px) translateX(1px);
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    /* width: 60%; */
+}
+
+.buttons li{
+    list-style-type: none;
+}
+
+.buttons button{
+    /* width: 120px; */
+    height: 40px;
+    /* display: inline; */
+    margin: 0 2rem;
+    padding: 0 2rem;
+    border-radius: 5px;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.buttons button:hover{
+    text-decoration: underline;
+    transform: translateY(1px) translateX(1px);
+}
+
+.card{
+    background: none;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.submitH2{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    margin: 2rem;
+}
+
+#submitPage{
+    min-height: 58.5vh;
+}
+
+#viewPage{
+    min-height: 58.5vh;
+}
+
+.viewH2{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.titleList li{
+    list-style-type: none;
+}
+
+.blogList{
+    background: linear-gradient(rgb(255, 235, 235), rgba(185, 185, 185, 0.697));
+    margin: 20px;
+    padding: 10px 20px;
+    font-family: "Protest Riot", sans-serif;
+    border-radius: 20px;
+}
+
+.blogTitle{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.blogDescription{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.printFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#print{
+    height: 40px;
+    /* display: inline; */
+    display: block;
+    margin: 0 2rem 1rem 2rem;
+    padding: 0 2rem;
+    border-radius: 5px;
+    font-family: "Protest Riot", sans-serif;
+    
+}
+
+#print:hover{
+    text-decoration: underline;
+    transform: translateY(1px) translateX(1px);
+}
+
+form textarea::-webkit-scrollbar{
+    width: 6px;
+}
+
+form textarea::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 6px;
+}

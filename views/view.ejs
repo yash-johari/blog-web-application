@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+    
+    <div id="viewPage">
+        <h2 class="viewH2">Explore Our Stories: Dive into the Blogosphere!</h2>
+        <!-- Blogs list in list format with Blog Title in the external list and blog description using a single li tag as a nested list -->
+
+        <div class="blogList">
+            <ul class="titleList">
+                <li class="blogTitle"><%= blogTitle  %></li>
+                <ul class="blogDescription">
+                    <li><%= blogDes %></li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="printFlex">
+            <button id="print">Print your Blog</button>
+        </div>
+
+    </div>
+
+    <script>
+        var printButton = document.getElementById("print");
+        printButton.addEventListener("click", function() {
+            var printOptions = {
+                printBackground: true,
+            };
+            window.print(printOptions);
+        });
+    </script>
+
+<%- include("partials/footer.ejs") %>

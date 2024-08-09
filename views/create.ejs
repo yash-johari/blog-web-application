@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Welcome Bloggers, it's your space</h1>
+
+<form action="/submit" method="post">
+    <label for="title">Write your Blog Title here</label>
+    <input type="text" name="title" id="title">
+    <label for="blog">Write your Blog here</label>
+    <textarea name="blog" id="blog" cols="30" rows="10"></textarea>
+    <button type="submit">Create Post</button>
+</form>        
+        
+<%- include("partials/footer.ejs") %>
